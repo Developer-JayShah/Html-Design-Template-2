@@ -479,11 +479,87 @@ hr {
     font-weight: 600;
     text-transform: capitalize;
 }
-
-.contact {
+.contact{
     width: 100%;
     height: 500px;
-    /* background-color: #ff5555; */
+    background-color: #f7f7fc;
+    padding-top: 50px;
+}
+.subDiv{
+    width: 33.3%;
+    height: 370px;
+    background-color: #f7f7fc;
+    float: left;
+    line-height: 100px;
+}
+.div_foot {
+    width: 85%;
+    height: 370px;
+    margin: auto;
+    background-color: #f7f7fc;
+}
+.subDiv_Foot {
+    width: 33.3%;
+    height: 370px;
+    background-color: #f7f7fc;
+    float: left;
+}
+.subDiv_Foot p {
+    font-weight: 100;
+    padding-right: 70%;
+    margin-top: 8%;
+}
+.subDiv_Foot h2 {
+    font-size: 15px;
+    margin-left: 10%;
+    padding-left: 3%;
+    border-left: 3px solid coral;
+}
+#div_ul {
+    margin-left: 0%;
+}
+#div_ul li {
+    margin-top: 10%;
+    color: black;
+}
+#div_ul a {
+    color: black;
+    position: relative;
+    padding-bottom: 5%;
+}
+#div_ul a:hover{
+    color: coral;
+}
+#div_ul span {
+    font-weight: 100;
+}
+#div_ul a::after {
+    position: absolute;
+    content: '';
+    border-bottom: 1px solid gray;
+    width: 300px;
+    left: 2%;
+    top: 100%;
+}
+.con_div {
+    margin-top: 7%;
+    margin-left: 10%;
+}
+.con_div i{
+    color: coral;
+    /* font-size: 65px; */
+}
+.fa-stack {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2.5em;
+}
+/* .contact {
+    width: 100%;
+    height: 500px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -503,7 +579,6 @@ hr {
 
 .site {
     padding-top: 100px;
-    /* padding-left: -45px; */
     margin-left: -20%;
 }
 
@@ -540,7 +615,6 @@ hr {
 .contact-info {
     padding: 35px;
     padding-top: 8%;
-    /* margin: 5px; */
 }
 
 .contact-icon {
@@ -551,15 +625,13 @@ hr {
 
 .contact-info span {
     margin-left: 21px;
-    /* margin-: 15px; */
     margin-right: 15px;
-    /* padding-left: 15px; */
 
 }
 
 .contact-icon i {
     font-size: 20px;
-}
+} */
 
 footer {
     background-color: black;
